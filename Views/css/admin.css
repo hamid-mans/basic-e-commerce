@@ -1,0 +1,20 @@
+.card {padding:10px;}
+
+.content .grid-a {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+    width: 100%;
+}
+
+.content .grid-a .droit {
+    margin-left: 40px;
+}
+
+form input[type="file"] {
+    width: 90%;
+}
+
+form label {
+    text-align: left;
+}

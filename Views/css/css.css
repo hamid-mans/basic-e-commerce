@@ -1,0 +1,137 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.present a {
+    text-decoration: none; color:242424;
+}
+
+.content {
+    padding: 100px 20px 0px 20px;
+}
+
+.content .carousel {
+    box-shadow: 3px 3px 10px black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content .carousel .carousel-control-next,
+.content .carousel .carousel-control-prev {
+    background-color: #1c1d25;
+}
+
+.content .carousel-item img {
+    text-align: center;
+}
+
+.content .d-flex.justify-content-around::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+
+  
+  .content .d-flex.justify-content-around::-webkit-scrollbar-thumb {
+    background-color: #363A51;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #1c1d25;  /* creates padding around scroll thumb */
+    width: 10%;
+  }
+
+.content .d-flex.justify-content-around {
+    flex: 1 1 0;
+    overflow: scroll;
+    width: 100%;
+}
+
+.content .p-2.bd-hightlight {
+    text-align: center;
+    justify-content: center;
+}
+
+.content .p-2.bd-hightlight img {
+    margin: 0;
+    padding: 0;
+}
+
+.mini-description {
+    text-align: justify;
+}
+
+/*form input[type=text],
+form input[type=email],
+form input[type=password],
+form input[type=select],
+form input[type=number],
+form option,
+form textarea {
+    border: 1px solid #949799;
+}*/
+
+.err_error {
+    color: rgb(158, 42, 42);
+}
+
+.err_success {
+    color: rgb(37, 156, 37);
+}
+
+.grideuh {
+    display: grid;
+    grid-template-columns: 15% 30% 30% 25%;
+}
+
+.grideuh .imgs img {
+    height: 300px;
+    width: 300px;
+}
+
+.grideuh .mini-imgs img {
+    max-height: 100px; max-width: 100px;
+}
+
+.grideuh .info .avis {
+    color: orange;
+    font-weight: bold;
+}
+
+.grideuh .info .voir_avis a {
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.grideuh .info .price {
+    font-size: 20px;
+}
+
+.grideuh .stock {
+    padding: 10px;
+}
+
+.grideuh .stock button {
+    color: white;
+}
+
+.grideuh .stock .dispo-q {
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid2 .form {
+    margin-left: 50px;
+}
