@@ -1,5 +1,5 @@
 # basic-e-commerce
-E-commerce fait en deux semaines seulement utilisant une structure Model View Controller fait maison par mes soins.
+E-commerce fait en deux semaines seulement utilisant une structure MVC
 
 *E-commerce by Hamid*
 
